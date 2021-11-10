@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/*Import*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&family=Saira+Extra+Condensed:wght@300&display=swap');
+
+
+/*Config PADRAO*/
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+:root{
+    --corfundo:#e0e8ff;
+    --cor02: #3829e0;
+    --cor03: #f5f7ff;
+    --cor04: #7280a7;
+    --cor05: #1f2f56;
+}
+
+
+
+/*Config site*/
+
+body{
+    background-color: var(--corfundo);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#bg {
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+main {
+    margin: 2rem
+}
+
+.box {
+    background-color: white;
+    max-width: 25rem;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 30px;
+    box-shadow: 1px 14px 20px #00000044;
+}
+
+
+.box p,h1{
+    color: var(--cor05);
+    font-weight: bold;
+    text-align: center;
+    padding: 0 2rem;
+}
+    
+.box h1 {
+    margin: 2rem;
+    font-size: 1.8rem;
+}
+
+.box p {
+    color: var(--cor04);
+}
+
+.box img {
+    width: 100%;
+    border-radius: 27px 27px 0 0;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa01 {
+    background-color: var(--cor03);
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    flex-shrink: fit-content;
+    margin-top: 1rem;
+    border-radius: 15px;
+}
+
+.caixa01 a {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.caixa01 .content #negrito {
+   color: var(--cor05);
+   font-weight: 900;
+} 
+
+.caixa01 img {
+    width: 2.5rem;
+}
+
+.but01 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.button {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 15px;
+    text-decoration: none;
+    color: var(--cor05);
+    font-weight: 700;
+    transition: 300ms ease-in-out;
+}
+
+.button:hover {
+    background-color: var(--cor02);
+    color: var(--cor03);
+    box-shadow: 4px 2px 15px #7280a7;
+}
+
+.attribution {
+    text-align: center;
+    font-weight: 600;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
